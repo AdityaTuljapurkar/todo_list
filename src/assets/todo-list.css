@@ -1,0 +1,56 @@
+body{
+    background-color: rgba(15, 13, 13, 0.808);
+}
+.to-doList {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin: 0 auto;
+    width: 300px;
+    border: 2px solid rgb(75, 85, 99); /* Darker border for dark mode */
+    border-radius: 10px;
+    padding: 10px;
+    color: #d1d5db;
+    background-color: #1e1e1e; /* Darker background */
+}
+.to-doList button {
+    border: none;
+    margin: 2px;
+    padding: 5px;
+    background-color: #3b3b3b; /* Darker button background */
+    color: #d1d5db; /* Light text for contrast */
+}
+.to-doList button:hover {
+    box-shadow: inset 1px 1px 5px rgb(37, 99, 235); /* Subtle blue shadow */
+    margin: 2px;
+    padding: 5px;
+}
+.to-doList h1 {
+    text-align: center;
+    color: rgb(129, 140, 248); /* Softer blue for dark mode */
+}
+input[type = "text"]{
+    font-size: 1.5em;
+    ;
+}
+li{
+    font-size: 1.6em;
+    
+}
+.error{
+    color: red;
+}
+.clear-button{
+    background-color: #1e1e1e !important; /* Ensure background color is applied */
+    /* Darker button background */
+    color: #d1d5db; /* Light text for contrast */
+    border: none;
+    font-size: 1.5em;
+    
+    float: right;
+}
+.clear-button:hover{
+    box-shadow: inset 1px 1px 5px rgb(37, 99, 235); /* Subtle blue shadow */
+    margin: 2px;
+    padding: 5px;
+}
